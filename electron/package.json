@@ -1,0 +1,19 @@
+{
+  "name": "eazyplan-desktop",
+  "productName": "EazyPlan",
+  "version": "1.0.0",
+  "description": "Lanzador desktop para EazyPlan (React + Spring Boot)",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "dev": "node dev.js",
+    "build": "npm --prefix ../frontend run build && echo 'Construye el backend con: mvn package'"
+  },
+  "author": "EazyPlan",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}

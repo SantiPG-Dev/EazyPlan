@@ -1,0 +1,30 @@
+# Backend - Maven
+backend/target/
+*.class
+
+# Frontend - Node
+node_modules/
+dist/
+.vite/
+*.local
+
+# Electron
+electron/node_modules/
+electron/dist-app/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.mvn/
+
+# OS
+.DS_Store
+Thumbs.db
